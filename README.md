@@ -13,6 +13,7 @@ usage: clipper [-h] -i INPUT -o OUTPUT
 Remove terminal soft-clipped portions from BAM reads
 
 options:
+
   -h, --help           show this help message and exit
   -i, --input INPUT    Input BAM file
   -o, --output OUTPUT  Output BAM file
