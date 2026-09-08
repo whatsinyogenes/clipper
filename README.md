@@ -8,12 +8,4 @@ NOTE: Not recommended in cases where structural events matter (fusions | inserti
 </p>
 
 
-usage: clipper [-h] -i INPUT -o OUTPUT
-
-Remove terminal soft-clipped portions from BAM reads
-
-options:
-
-  -h, --help           show this help message and exit
-  -i, --input INPUT    Input BAM file
-  -o, --output OUTPUT  Output BAM file
+usage: clipper [-h] -i INPUT.bam -o OUTPUT.bam
